@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import CodeMirror from 'react-codemirror'
 require('codemirror/lib/codemirror.css');

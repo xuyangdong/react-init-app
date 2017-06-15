@@ -1,4 +1,5 @@
 window.matchMedia || (window.matchMedia = function() {
+    console.log("log")
     "use strict";
 
     // For browsers that support matchMedium api such as IE 9 and webkit

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import 'babel-polyfill'
 import 'general-polyfill'
 import 'whatwg-fetch'

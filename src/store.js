@@ -5,7 +5,7 @@ import {createStore, applyMiddleware, compose,} from 'redux'
 import config from './config'
 
 export const createMyStore = function(rootReducer) {
-	let middlewares = []
+	const middlewares = []
 	middlewares.push(thunkMiddleware)
 	middlewares.push(callAPIMiddleware)
 

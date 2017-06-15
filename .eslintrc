@@ -1,0 +1,49 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "class-methods-use-this": 0,
+    "comma-dangle": 0,
+    "comma-spacing":1,
+    "generator-star-spacing": 0,
+    "import/no-dynamic-require": 0,
+    "indent": 0,
+    "jsx-quotes": [
+      2,
+      "prefer-double"
+    ],
+    "max-len": 0,
+    "newline-per-chained-call": 0,
+    "no-bitwise": 0,
+    "import/no-extraneous-dependencies":0,
+    "import/no-unresolved":0,
+    "import/extensions":1,
+    "no-mixed-operators": 0,
+    "no-plusplus": 0,
+    "no-tabs": 0,
+    "no-underscore-dangle": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-no-bind": 0,
+    "react/prefer-stateless-function": 0,
+    "react/jsx-indent": [0, 'tab'],
+    "no-param-reassign": 0,
+    "semi": [
+      "warn",
+      "never"
+    ],
+    "space-before-function-paren":1,
+    "arrow-body-style":1,
+    "react/jsx-tag-spacing":1,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "eol-last": 0,
+    "no-shadow": 0,
+    "no-use-before-define": 1,
+    "import/prefer-default-export": 1,
+    "object-curly-spacing": 0
+  }
+}
