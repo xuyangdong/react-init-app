@@ -6,7 +6,7 @@ const BaseContainer = React.createClass({
 		return (
 			<div className={styles.container}>
 			<div className={styles.navigation}>
-			navigation
+			navigation1
 			</div>
 			<div className={styles.content}>
 				{this.props.children}
