@@ -1,6 +1,6 @@
 import thunkMiddleware from 'redux-thunk'
 import {callAPIMiddleware} from 'middlewares'
-import createLogger from 'redux-logger'
+import { createLogger } from 'redux-logger'
 import {createStore, applyMiddleware, compose,} from 'redux'
 import config from './config'
 

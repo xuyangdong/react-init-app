@@ -1,0 +1,16 @@
+:local(.container){
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+	:local(.progress){
+		width:100%;
+	}
+	:local(.time){
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+}

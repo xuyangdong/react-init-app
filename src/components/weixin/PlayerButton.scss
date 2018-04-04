@@ -1,0 +1,28 @@
+:local(.container){
+	position: relative;
+	width: 100vw;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	:local(.playerWrapper){
+		position:relative;
+		width: 150px;
+		height: 150px;
+		:local(.playerButton){
+			width: 150px;
+			height: 150px;
+			object-fit: scale-down;
+			border-radius: 50%;
+			border: 1px solid #8794C0;
+		}
+		:local(.playerLogo){
+			width: 50px;
+			height: 50px;
+			object-fit: scale-down;
+			position: absolute;
+			top:50px;
+			left: 50px;
+		}
+	}
+}

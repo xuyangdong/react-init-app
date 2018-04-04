@@ -1,0 +1,13 @@
+:local(.container){
+	background-color: white;
+	width: 100vw;
+	box-sizing: border-box;
+	padding:10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	>img{
+		width: 40%;
+		margin-left: 10%;
+	}
+}

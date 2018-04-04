@@ -1,0 +1,13 @@
+:local(.container){
+	padding:10px;
+	:local(.content){
+		p{
+			text-indent: 2em;
+			text-align: justify;
+		}
+		li{
+			list-style: none;
+			text-indent: 0;
+		}
+	}
+}

@@ -3,6 +3,7 @@ import {Provider} from 'react-redux'
 import {createMyStore} from './store'
 import reducer from './reducer'
 import routes from './routes'
+import 'common.scss'
 
 const store = createMyStore(reducer)
 

@@ -83,7 +83,8 @@ module.exports = {
         modules: [
             'node_modules',
             paths.appNodeModules,
-            path.resolve(paths.appSrc, "utils")
+            path.resolve(paths.appSrc, "utils"),
+            path.resolve(paths.rootApp, "css_modules")
         ].concat(
         // It is guaranteed to exist because we tweak it in `env.js`
         process.env.NODE_PATH.split(path.delimiter).filter(Boolean)),
@@ -216,7 +217,8 @@ module.exports = {
                         loader: require.resolve('css-loader'),
                         options: {
                             importLoaders: 1,
-                            modules: true
+                            modules: true,
+                            localIdentName: '[name]__[local]___[hash:base64:9]'
                         }
                     }, {
                         loader: require.resolve('postcss-loader'),

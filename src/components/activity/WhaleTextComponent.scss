@@ -1,0 +1,14 @@
+:local(.container){
+	position: relative;
+
+	:local(.whale){
+		width: 115px;
+	}
+	:local(.text){
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		font-family: myFirstFont;
+		font-size: 12px;
+	}
+}

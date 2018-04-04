@@ -1,0 +1,43 @@
+:local(.container){
+	position: relative;
+	height: 250px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	:local(.playerWrapper){
+		position: relative;
+		width: 250px;
+		height: 250px;
+		:local(.progressBarWrapper){
+			width:250px;
+			height: 250px;
+
+			:global(.ant-progress-text){
+				display:none;
+			}
+		}
+		:local(.playerButtonWrapper){
+			position:absolute;
+			width: 200px;
+			height: 200px;
+			top:10%;
+			left: 10%;
+		}
+		:local(.startTimeStamp){
+			position:absolute;
+			width: 30px;
+			height: 16px;
+			top: 85%;
+			left: 10%;
+		}
+		:local(.endTimeStamp){
+			position:absolute;
+			width: 30px;
+			height: 16px;
+			top: 85%;
+			left: 80%;
+		}
+	}
+
+}

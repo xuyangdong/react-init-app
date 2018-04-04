@@ -1,0 +1,72 @@
+:local(.container){
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 30px 0;
+	border-bottom: 1px solid #F1F1F1;
+	max-width: 640px;
+
+	:local(.userInfo){
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin: 30px 0;
+
+		:local(.userHeader){
+			width:80px;
+			height: 80px;
+			border-radius: 40px;
+			margin-right: 12px;
+		}
+
+		:local(.userRightPanel){
+			display: flex;
+			flex-grow: 1;
+			align-items: center;
+			justify-content: space-between;
+
+			:local(.duration){
+				color: #4f4f4f;
+			}
+		}
+	}
+
+	:local(.workInfo){
+		display: flex;
+		justify-content: flex-start;
+		border-radius: 3px;
+		:local(.cover){
+			width:120px;
+			height: 120px;
+		}
+
+		:local(.rightPanel) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-grow: 1;
+			background-color: #FAFAFA;
+			padding:0 20px;
+
+			:local(.introduction) {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				height: 40%;
+
+				:local(.storyTitle) {
+					font-size:14px;
+				}
+
+				:local(.storyIntroduction) {
+					font-size: 12px;
+					color: #4F4F4F;
+				}
+			}
+
+			:local(.playerButton) {
+				width: 50px;
+				height: 50px;
+			}
+		}
+	}
+}

@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const isProduction = process.env.NODE_ENV === 'production'
-const port = isProduction ? process.env.PORT : 3001
+const port = isProduction ? process.env.PORT : 3002
 const publicPath = path.resolve(__dirname, 'build')
 
 // We point to our static assets

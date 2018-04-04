@@ -1,0 +1,22 @@
+:local(.container){
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	:local(.title){
+		font-size:20px;
+		font-weight: bold;
+	}
+	:local(.listener){
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+		>img{
+			width: 14px;
+			height: 10px;
+			margin-right: 5px;
+		}
+	}
+}

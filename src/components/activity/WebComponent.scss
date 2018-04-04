@@ -1,0 +1,18 @@
+:local(.container){
+	:local(.content){
+		padding: 0 40px;
+		display: flex;
+
+		:local(.col){
+			flex-grow: 1;
+		}
+
+		:local(.firstCol){
+			margin-right: 40px;
+		}
+
+		:local(.second){
+			margin-left: 40px;
+		}
+	}
+}

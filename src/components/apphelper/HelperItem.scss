@@ -1,0 +1,56 @@
+:local(.container){
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	:local(.title){
+		padding: 20px;
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: bold;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid #dad7d7;
+		box-shadow: 0px 2px 0px 0px #efefef;
+		flex-shrink: 0;
+
+		>img:nth-child(1){
+			position: absolute;
+			top:20px;
+			left: 20px;
+			width: 20px;
+			height: 20px;
+			object-fit: scale-down;
+		}
+		>img:nth-last-child(1){
+			position: absolute;
+			top:20px;
+			right: 20px;
+			width: 20px;
+			height: 20px;
+			object-fit: scale-down;
+		}
+	}
+
+	:local(.dropDown){
+		background-color: #efefef;
+		padding:20px;
+		box-sizing: content-box;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+
+		:local(.dropDownItem){
+			padding:20px;
+			font-size: 16px;
+			font-weight: normal;
+			line-height: 20px;
+			border-radius: 5px;
+			// width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+}

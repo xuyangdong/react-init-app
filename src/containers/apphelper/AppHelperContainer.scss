@@ -1,0 +1,35 @@
+:local(.container){
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	:local(.title){
+		padding: 20px;
+		font-size: 20px;
+		line-height: 20px;
+		font-weight: bold;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid #dad7d7;
+		box-shadow: 0px 2px 0px 0px #efefef;
+		flex-shrink: 0;
+
+		>img{
+			position: absolute;
+			top:20px;
+			left: 20px;
+			width: 20px;
+			height: 20px;
+			object-fit: scale-down;
+			transform: rotate(180deg);
+		}
+	}
+
+	:local(.content){
+		overflow: scroll;
+	}
+}
